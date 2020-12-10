@@ -1,0 +1,29 @@
+// Button
+.btn {
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+  color: $white;
+  background: $accent-color;
+  border: 0;
+  cursor: pointer;
+  transition: background .4s;
+  &:hover {
+    background: #28acff;
+  }
+}
+
+// Link a
+a {
+  text-decoration: none;
+}
+
+// List
+ul {
+  list-style: none;
+}
+
+// Typo
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

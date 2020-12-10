@@ -1,5 +1,17 @@
-$primary-color: red;
+// Variables
+  @import 'partials/variables';
 
-h1 {
-  color: $primary-color;
-}
+// Commons
+  @import 'partials/common';
+
+// Utilities
+  @import 'partials/utilities';
+
+// Header
+
+// Hero
+
+// Main
+
+// Footer
+@import 'partials/footer';

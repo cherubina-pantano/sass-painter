@@ -22,3 +22,13 @@
     }
   }
 }
+
+.social-icons {
+  display: flex;
+  margin-top: 15px;
+  padding: 0;
+  & i {
+    margin-right: 10px;
+    font-size: 1.9rem;
+  }
+}

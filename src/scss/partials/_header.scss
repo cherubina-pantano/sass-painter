@@ -1,0 +1,31 @@
+.header-container {
+  width: 100%;
+  color: $white;
+  background: $primary-color;
+}
+
+.header-overall {
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+  & .cta-nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    & li {
+      margin-right: 12px;
+      font-size: .9rem;
+      color: #989898;
+      & i {
+        margin-left: 6px;
+        color: $accent-color;
+      }
+      & select {
+        width: 80px;
+        margin-left: 8px;
+      }
+    }
+  }
+}

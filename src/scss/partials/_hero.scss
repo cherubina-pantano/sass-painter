@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  color: $white;
+  background-color: grey;
+  background-image: url('../../images/hero-background.jpg');
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.hero-offer {
+
+  margin: 0 auto;
+  border: 1px solid blue;
+  background: $black;
+}

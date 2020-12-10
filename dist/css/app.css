@@ -22,7 +22,6 @@ body {
   cursor: pointer;
   transition: background 0.4s;
 }
-
 .btn:hover {
   background: #28acff;
 }
@@ -53,24 +52,20 @@ ul {
   margin: 0 auto;
   padding: 15px 0;
 }
-
 .header-overall .cta-nav {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-
 .header-overall .cta-nav li {
   margin-right: 12px;
   font-size: 0.9rem;
   color: #989898;
 }
-
 .header-overall .cta-nav li i {
   margin-left: 6px;
   color: #009cff;
 }
-
 .header-overall .cta-nav li select {
   width: 80px;
   margin-left: 8px;
@@ -81,30 +76,52 @@ ul {
   width: 1200px;
   margin: 10px auto;
 }
-
 .main-navbar .logo {
   margin-right: 30px;
 }
-
 .main-navbar .navs {
   display: flex;
   align-items: center;
 }
-
 .main-navbar .navs li {
   margin: 0 15px;
 }
-
 .main-navbar .navs li a {
   color: #fff;
   padding: 14px;
   background: trasparent;
   transition: background 0.3s;
 }
-
 .main-navbar .navs li a:hover {
   color: #000;
   background: #e6e6e6;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  color: #fff;
+  background-color: grey;
+  background-image: url("../../images/hero-background.jpg");
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.hero-offer {
+  margin: 0 auto;
+  border: 1px solid blue;
+  background: #000;
 }
 
 .footer-container {
@@ -119,18 +136,15 @@ ul {
   width: 1200px;
   margin: 30px auto;
 }
-
 .main-footer div {
   flex-basis: 25%;
   padding: 30px;
 }
-
 .main-footer div a {
   font-size: 12px;
   line-height: 1.8;
   color: #4d4d4d;
 }
-
 .main-footer div a:hover {
   text-decoration: underline;
 }
@@ -140,9 +154,7 @@ ul {
   margin-top: 15px;
   padding: 0;
 }
-
 .social-icons i {
   margin-right: 10px;
   font-size: 1.9rem;
 }
-

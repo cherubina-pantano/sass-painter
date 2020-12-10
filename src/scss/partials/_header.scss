@@ -29,3 +29,29 @@
     }
   }
 }
+.main-navbar {
+  display: flex;
+  width: 1200px;
+  margin: 10px auto;
+  & .logo {
+    margin-right: 30px;
+  }
+  & .navs {
+    display: flex;
+    align-items: center;
+    & li {
+      margin: 0 15px;
+      & a {
+        color: $white;
+        padding: 14px;
+        background: trasparent;
+        transition: background .3s;
+        // transition: color .0s;
+        &:hover {
+          color: $black;
+          background: $quarternary-color;
+        }
+      }
+    }
+  }
+}

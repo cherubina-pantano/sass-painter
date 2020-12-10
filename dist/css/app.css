@@ -76,6 +76,37 @@ ul {
   margin-left: 8px;
 }
 
+.main-navbar {
+  display: flex;
+  width: 1200px;
+  margin: 10px auto;
+}
+
+.main-navbar .logo {
+  margin-right: 30px;
+}
+
+.main-navbar .navs {
+  display: flex;
+  align-items: center;
+}
+
+.main-navbar .navs li {
+  margin: 0 15px;
+}
+
+.main-navbar .navs li a {
+  color: #fff;
+  padding: 14px;
+  background: trasparent;
+  transition: background 0.3s;
+}
+
+.main-navbar .navs li a:hover {
+  color: #000;
+  background: #e6e6e6;
+}
+
 .footer-container {
   width: 100%;
   color: #000;

@@ -1,0 +1,60 @@
+// Main
+.main-content {
+  width: 100%;
+  min-height: 800px;
+  background-image: url('../../images/intro.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-section1 {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section1-text {
+  padding: 20px;
+  position: relative;
+  & h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+  & p {
+    font-size: 1.3rem;
+    padding: 25px;
+  }
+}
+
+.quick-start {
+  & a {
+    color: $white;
+    font-size: 1.2rem;
+  }
+}
+
+.paint-img {
+  width: 100%;
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  & .screen-img {
+    display: block;
+    width: 1000px;
+    position: absolute;
+    bottom: 0;
+
+  }
+  & .woman-img {
+    display: block;
+    width: 965px;
+    // height: 500px;
+    // position: absolute;
+    // bottom: 0;
+  }
+}

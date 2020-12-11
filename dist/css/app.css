@@ -277,6 +277,18 @@ ul {
   max-width: 965px;
 }
 
+.main-section3 {
+  width: 100%;
+  min-height: 650px;
+  color: #fff;
+  background-color: grey;
+  background-image: url("../../images/image-bg-02.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .footer-container {
   width: 100%;
   color: #000;

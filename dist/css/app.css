@@ -102,26 +102,75 @@ ul {
   justify-content: center;
   position: relative;
   width: 100%;
-  min-height: 400px;
+  min-height: 460px;
   color: #fff;
   background-color: grey;
   background-image: url("../../images/hero-background.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  transform: translate(-50%, -60%);
+  display: flex;
+  justify-content: space-between;
+  min-width: 60%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  margin: 0px auto;
+  padding: 20px;
+}
+.hero-text .hero-list {
+  line-height: 40px;
+}
+
+.hero-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 45%;
+  margin: 0px auto;
+  padding: 20px 10px;
+  background: #000;
+}
+
+.offer-price-container {
   display: flex;
   justify-content: space-between;
 }
 
-.hero-text {
-  margin: 0 auto;
-  border: 1px solid red;
+.offer-price .btn {
+  margin-top: 25px;
 }
 
-.hero-offer {
-  margin: 0 auto;
-  border: 1px solid blue;
-  background: #000;
+.limited {
+  color: #000;
+  background: #fff;
+  padding: 15px;
+  margin-right: 15px;
+}
+.limited h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.limited p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.limited a {
+  font-size: 14px;
+  color: #009cff;
+}
+.limited a:hover {
+  text-decoration: underline;
 }
 
 .footer-container {
